@@ -1,9 +1,10 @@
 C:\Users\queiker\source\ProcentSkladany\bin\Release\ProcentSkladany.exe
 C:\Users\queiker\source\ProcentSkladany\bin\Release\ProcentSkladany.pdb
-C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.csprojAssemblyReference.cache
 C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.Form1.resources
 C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.Properties.Resources.resources
 C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.csproj.GenerateResource.cache
 C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.csproj.CoreCompileInputs.cache
 C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.exe
 C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.pdb
+C:\Users\queiker\source\ProcentSkladany\bin\Release\ProcentSkladany.exe.config
+C:\Users\queiker\source\ProcentSkladany\obj\Release\ProcentSkladany.csproj.AssemblyReference.cache
