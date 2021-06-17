@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
+
+
 namespace ProcentSkladany
 {
     public partial class Form1 : Form
@@ -22,24 +24,66 @@ namespace ProcentSkladany
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*
-            txt_kapital_poczatkowy.Text*(1+txt_roczne_oprocentowanie_w_procentach.Text/100/txt_liczba_kapitalizacji_w_roku.Text)^txt_liczba_kapitalizacji_w_roku.text*txt_liczba_lat_zapadalnosci_depozytu.Text
-            */
-            double init_capital = double.Parse(txt_kapital_poczatkowy.Text);
-            
-            double compound_invest_number_in_year = double.Parse(txt_liczba_kapitalizacji_w_roku.Text);
-            double investment_years = double.Parse(txt_liczba_lat_zapadalnosci_depozytu.Text);
-            double year_capitalization = double.Parse(txt_roczne_oprocentowanie_w_procentach.Text);
-            double equal_1 = 0;
-            equal_1 = init_capital * (1 + year_capitalization / 100 / compound_invest_number_in_year);
-            double equal_2;
-            equal_2 = Math.Pow(equal_1, (compound_invest_number_in_year * investment_years));
+            if (check_values() == "Błąd : ")
+            {
+                double v0 = double.Parse(txt_kapital_poczatkowy.Text);
+                double m = double.Parse(txt_liczba_kapitalizacji_w_roku.Text);
+                double n = double.Parse(txt_liczba_lat_zapadalnosci_depozytu.Text);
+                double r = double.Parse(txt_roczne_oprocentowanie_w_procentach.Text);
+                double b = (1 + (r / m / 100));
+                double power = m * n;
+                double equal = v0 * Math.Pow(b, power);
+                lbl_wynik.Text = string.Concat(equal);
+            }
+            else
+            {
+                lbl_wynik.Text = check_values();
+            }
+        }
+        public string check_values()
+        {
+            string to_return = "Błąd : ";
 
-            lbl_wynik.Text = string.Concat(equal_2);
+            try
+            {
+                double.Parse(txt_kapital_poczatkowy.Text);
+            }
+            catch
+            {
+                to_return = to_return + "kapitał początkowy \n";
+            }
+            try
+            {
+                double.Parse(txt_liczba_kapitalizacji_w_roku.Text);
+            }
+            catch
+            {
+                to_return = to_return + "liczba kapitalizacji \n";
+            }
+            try
+            {
+                double.Parse(txt_liczba_lat_zapadalnosci_depozytu.Text);
+            }
+            catch
+            {
+                to_return = to_return + "liczba lat zapadalności depozytu \n";
+            }
+            try
+            {
+                double.Parse(txt_roczne_oprocentowanie_w_procentach.Text);
+            }
+            catch
+            {
+                to_return = to_return + "oprocentowanie w procentach \n";
+            }
+            return to_return;
+        }
 
-
-
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("www.itkrakow.pl");
 
         }
     }
 }
+
