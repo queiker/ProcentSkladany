@@ -25,3 +25,13 @@ C:\Users\queiker\source\STARE\MOJE\ProcentSkladany\obj\Debug\ProcentSkladany.csp
 C:\Users\queiker\source\STARE\MOJE\ProcentSkladany\obj\Debug\ProcentSkladany.csproj.CoreCompileInputs.cache
 C:\Users\queiker\source\STARE\MOJE\ProcentSkladany\obj\Debug\ProcentSkladany.exe
 C:\Users\queiker\source\STARE\MOJE\ProcentSkladany\obj\Debug\ProcentSkladany.pdb
+C:\Users\trade\source\ProcentSkladany\bin\Debug\ProcentSkladany.exe.config
+C:\Users\trade\source\ProcentSkladany\bin\Debug\ProcentSkladany.exe
+C:\Users\trade\source\ProcentSkladany\bin\Debug\ProcentSkladany.pdb
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.csproj.AssemblyReference.cache
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.Form1.resources
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.Properties.Resources.resources
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.csproj.GenerateResource.cache
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.csproj.CoreCompileInputs.cache
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.exe
+C:\Users\trade\source\ProcentSkladany\obj\Debug\ProcentSkladany.pdb

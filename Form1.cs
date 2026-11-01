@@ -66,7 +66,7 @@ namespace ProcentSkladany
             }
             catch
             {
-                to_return = to_return + "liczba lat zapadalności depozytu \n";
+                to_return = to_return + "liczba lat zapadalności depozytu \n"; 
             }
             try
             {
@@ -81,7 +81,7 @@ namespace ProcentSkladany
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("www.itkrakow.pl");
+            System.Diagnostics.Process.Start("https://itkrakow.blogspot.com/p/naprawy-komputerow.html");
 
         }
     }
