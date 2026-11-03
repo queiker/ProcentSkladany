@@ -33,7 +33,9 @@ namespace ProcentSkladany
                 double b = (1 + (r / m / 100));
                 double power = m * n;
                 double equal = v0 * Math.Pow(b, power);
-                lbl_wynik.Text = string.Concat(equal);
+                
+                lbl_wynik.Text = equal.ToString("F2");
+                //lbl_wynik.Text = string.Concat(equal);
             }
             else
             {
